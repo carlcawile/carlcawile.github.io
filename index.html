@@ -19,6 +19,7 @@
       <div class="links">
         <a href="#work">Work</a>
         <a href="#services">What I Do</a>
+        <a href="#experience">Experience</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </div>
@@ -31,7 +32,7 @@
     <section class="hero c">
       <div class="ey">WEB DEVELOPMENT · AUTOMATION · SYSTEMS</div>
       <h1>I build websites,<br><span>automations &amp; business systems.</span></h1>
-      <p>I'm Carl, a Web Developer and Automation Specialist focused on building practical digital solutions that improve workflows, connect tools, and solve real business problems.</p>
+      <p>I'm Carl, a Web Developer and Automation Specialist with 7+ years in software, from C++ and SQL to WordPress, low-code tools and automation. I build practical digital solutions that improve workflows, connect tools, and solve real business problems.</p>
       <div class="buttons">
         <a class="btn primary" href="#work">View my work ↗</a>
         <a class="btn secondary" href="#contact">Let's work together</a>
@@ -42,6 +43,8 @@
         <span>n8n</span>
         <span>Google Apps Script</span>
         <span>Monday.com</span>
+        <span>React / TypeScript</span>
+        <span>Python</span>
         <span>Claude Code</span>
       </div>
     </section>
@@ -81,9 +84,12 @@
           <h3>Employee Management System</h3>
           <p>Built an internal employee management web application from the ground up, using Google Sheets as the database and Google Apps Script for the backend logic. Continuously expanded it with features based on the team's needs, and it's been used operationally, every day, for over a year.</p>
           <p>Handles daily clock in/out and attendance, leave requests with a team calendar and approval workflow, sick leave and late tracking, auto-generated salary reports by date range, and an admin panel for managing users and permissions.</p>
+          <p>Now redeveloping it on Node.js and Supabase to scale beyond spreadsheets.</p>
           <div class="stack">
             <span>Google Sheets</span>
             <span>Apps Script</span>
+            <span>Node.js</span>
+            <span>Supabase</span>
           </div>
         </div>
       </article>
@@ -91,8 +97,45 @@
       <div class="grid">
 
         <article class="card reveal">
+          <div class="cardtop">
+            <small>02 / FULL-STACK APP</small>
+            <div class="flow"><b>Scan</b><i>→</i><b>Headless Chrome</b><i>→</i><b>Issues</b><i>→</i><b>Alerts</b></div>
+          </div>
+          <div class="cardbody">
+            <div class="type">Internal Tool · Full Stack</div>
+            <h3>QA App — Automated Site Scanner</h3>
+            <p>An internal QA platform for the team's websites. One click crawls a site in headless Chrome and checks links, images, accessibility, speed, JavaScript errors and the phone layout. Each issue is tracked across scans (new, open, fixed, reopened), linked to GitHub commits and server errors, and critical problems email the assigned developer.</p>
+            <div class="stack">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>NestJS</span>
+              <span>Playwright</span>
+              <span>Supabase</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="cardtop">
+            <small>03 / PRODUCT · VIDEO AI</small>
+            <div class="flow"><b>Camera</b><i>→</i><b>Rally detection</b><i>→</i><b>Highlights</b><i>→</i><b>QR</b></div>
+          </div>
+          <div class="cardbody">
+            <div class="type">Python · Cloud · Desktop</div>
+            <h3>PickleReel — Automatic Pickleball Highlights</h3>
+            <p>Court cameras record the match. The engine listens for paddle hits, measures player movement, and finds and ranks the best rallies, even with noisy courts next door. Players scan a QR code to get branded highlight clips. It ships as a Windows installer for each club's PC, with a cloud app linking courts to phones.</p>
+            <div class="stack">
+              <span>Python</span>
+              <span>FFmpeg</span>
+              <span>Cloudflare Workers</span>
+              <span>Windows Installer</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card reveal">
           <div class="cardtop gallery">
-            <small>02 / AUTOMATION</small>
+            <small>04 / AUTOMATION</small>
             <a class="gallery-view" target="_blank" rel="noopener">View full ↗</a>
             <div class="shots">
               <img src="images/affiliate-landing-page.webp" alt="A Brilliant Tribe affiliate program landing page" data-caption="Affiliate program landing page" class="active" loading="lazy" decoding="async">
@@ -122,7 +165,7 @@
 
         <article class="card reveal">
           <div class="cardtop gallery">
-            <small>03 / AUTOMATION</small>
+            <small>05 / AUTOMATION</small>
             <a class="gallery-view" target="_blank" rel="noopener">View full ↗</a>
             <div class="shots">
               <img src="images/blog-automation-workflow.webp" alt="n8n workflow automating blog publishing from Monday.com to WordPress, including AI content generation and image generation steps" data-caption="Full n8n automation workflow" class="active" loading="lazy" decoding="async">
@@ -148,7 +191,7 @@
 
         <article class="card reveal">
           <div class="cardtop gallery">
-            <small>04 / WORDPRESS</small>
+            <small>06 / WORDPRESS</small>
             <a class="gallery-view" target="_blank" rel="noopener">View full ↗</a>
             <div class="shots">
               <img src="images/drunkonsocial-home.webp" alt="Drunk On Social homepage hero and team introduction" data-caption="Homepage" class="active" loading="lazy" decoding="async">
@@ -178,7 +221,7 @@
 
         <article class="card reveal">
           <div class="cardtop gallery">
-            <small>05 / LANDING PAGES</small>
+            <small>07 / LANDING PAGES</small>
             <a class="gallery-view" target="_blank" rel="noopener">View full ↗</a>
             <div class="shots">
               <img src="images/labcoatagents-shop.webp" alt="Lab Coat Agents branded merchandise shop landing page" data-caption="Lab Coat Agents merch shop" class="active" loading="lazy" decoding="async">
@@ -232,8 +275,8 @@
           <div class="service reveal">
             <div class="ey">01</div>
             <h3>Web Development</h3>
-            <p>Websites, landing pages, funnels, customization, and practical front-end solutions.</p>
-            <strong>WordPress · GoHighLevel · HTML · CSS · JavaScript</strong>
+            <p>Websites, landing pages, funnels, customization, and ongoing maintenance across multiple platforms.</p>
+            <strong>WordPress · GoHighLevel · Webflow · Kajabi · HTML · CSS · JS</strong>
           </div>
           <div class="service reveal">
             <div class="ey">02</div>
@@ -245,7 +288,66 @@
             <div class="ey">03</div>
             <h3>Systems &amp; Integrations</h3>
             <p>Internal tools and connected systems that bring business processes, databases, and platforms together.</p>
-            <strong>Google Apps Script · Google Sheets · APIs</strong>
+            <strong>APIs · Webhooks · Apps Script · SQL / MySQL</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section c">
+      <div class="heading">
+        <div>
+          <div class="ey">EXPERIENCE</div>
+          <h2>Where I've worked.</h2>
+        </div>
+        <p>7+ years across software development, data, and business systems.</p>
+      </div>
+      <div class="timeline">
+        <div class="job reveal">
+          <div class="when">Sept 2023 — Present</div>
+          <div>
+            <h3>Web Developer / Automation Specialist</h3>
+            <div class="org">A Brilliant Tribe</div>
+            <ul>
+              <li>Rebuilt and customized business websites in WordPress, improving structure, functionality, and user experience.</li>
+              <li>Built landing pages, sales funnels, and site features with WordPress, GoHighLevel, HTML, CSS, and JavaScript.</li>
+              <li>Maintain and update sites across WordPress, Webflow, and Kajabi.</li>
+              <li>Integrated apps with APIs and webhooks, and automated workflows with n8n, monday.com, Apps Script, and Google Sheets.</li>
+              <li>Built an Employee Management System in daily use; now redeveloping it on Node.js and Supabase.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="job reveal">
+          <div class="when">Feb 2022 — Sept 2023</div>
+          <div>
+            <h3>Application Developer</h3>
+            <div class="org">Accenture</div>
+            <ul>
+              <li>Performed ETL processes for client projects.</li>
+              <li>Built SQL scripts, maintained datasets, and resolved data quality issues.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="job reveal">
+          <div class="when">Dec 2020 — Feb 2022</div>
+          <div>
+            <h3>Developer</h3>
+            <div class="org">JIMAC Incorporated</div>
+            <ul>
+              <li>Supported Point of Sale systems and developed front-end and back-end modules in C++.</li>
+              <li>Managed software operations for 7-Eleven Kiosk PH using MySQL databases.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="job reveal">
+          <div class="when">Nov 2018 — May 2020</div>
+          <div>
+            <h3>System Developer</h3>
+            <div class="org">Circuit-Help</div>
+            <ul>
+              <li>Built hardware/software projects including monitoring systems and robotics prototypes.</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -258,7 +360,7 @@
         <h2>I like turning messy processes into systems that work.</h2>
       </div>
       <div class="reveal">
-        <p>My background combines web development, automation, and business systems. I enjoy taking a requirement from a team, figuring out the workflow behind it, and turning it into something people can actually use.</p>
+        <p>I started out building hardware/software prototypes, then moved into C++ point-of-sale systems and SQL data work at Accenture. Today I focus on web development, automation, and business systems. I enjoy taking a requirement from a team, figuring out the workflow behind it, and turning it into something people can actually use.</p>
         <p>My recent work includes GoHighLevel funnels and affiliate workflows, WordPress development, n8n automations, and an internal employee management platform I built on Google Apps Script and have maintained in daily use for over a year.</p>
         <p class="available">Open to remote &amp; freelance opportunities</p>
       </div>
@@ -274,6 +376,19 @@
         <span>n8n</span>
         <span>Google Apps Script</span>
         <span>Google Sheets</span>
+        <span>Webflow</span>
+        <span>Kajabi</span>
+        <span>APIs &amp; Webhooks</span>
+        <span>SQL / MySQL</span>
+        <span>Node.js</span>
+        <span>Supabase</span>
+        <span>React</span>
+        <span>TypeScript</span>
+        <span>NestJS</span>
+        <span>Python</span>
+        <span>Playwright</span>
+        <span>Cloudflare Workers</span>
+        <span>C++</span>
         <span>Claude Code</span>
         <span>HTML / CSS</span>
         <span>JavaScript</span>
